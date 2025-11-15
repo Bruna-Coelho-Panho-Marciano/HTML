@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Bruna Marciano">
+    <meta name="description" content="Um mini-site simples criado em um único arquivo HTML.">    
+    <title>Desafio HTML 101</title>
+</head>
+
+<body>
+    <h1>Mini-site em 1 arquivo</h1> 
+    <main>
+        <p>
+            Olá, mundo! Este é o meu primeiro <b>mini-site</b> criado em um único arquivo <i>HTML</i>.
+        </p>
+        <br/>
+
+        <button onclick="alert('Você clicou no botão!')">
+            Clique aqui
+        </button>
+
+        <hr/>
+
+        <h2>Exemplo de Lista Ordenada de Frutas</h2>
+        <nav>
+            <ol>
+                <li>Abacaxi</li>
+                <li>Banana</li>
+                <li>Cereja</li>
+                <li>Damasco</li>
+            </ol>
+        </nav>
+
+        <h2>Exemplo de Lista não Ordenada de Vegetais</h2>
+        <nav>
+            <ul>
+                <li>Alface</li>
+                <li>Brócolis</li>
+                <li>Cenoura</li> 
+                <li>Espinafre</li> 
+            </ul>
+        </nav>
+
+        <hr/>
+        <h2>Imagem do HTML</h2>
+        <img src="https://blog.soaresdev.com/static/926ea487dfd0dc0bc35bef57c3e7b6a8/7422e/html5.png" alt="Imagem do HTML" width="300"/>
+        <hr/>
+
+        <h2>Link Externo</h2>
+        <a href="https://www.w3schools.com/html/" target="_blank">
+            Ir para a W3Schools
+        </a>
+        
+        <h2>Link Interno</h2>
+        <a href="#formulario-exemplo">
+            Ir para o formulário
+        </a>
+
+        <hr/>
+        <h2>Exemplo de Tabela</h2>
+        <Table border="2" id="tabela-exemplo">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>28</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Bruno</td>
+                <td>34</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>Carla</td>
+                <td>25</td>
+                <td>Belo Horizonte</td>
+            </tr>
+        </Table>
+        <hr/>
+
+        <h2>Exemplo de Formulário</h2>
+        <form id="formulario-exemplo">
+            <label for="nome">Nome</label><br/>
+            <input type="text" id="nome" name="nome"/><br/><br/>
+            <label for="email">Email</label><br/>
+            <input type="email" id="email" name="email"/><br/><br/>
+            <label for="idade">Idade</label><br/>
+            <input type="number" id="idade" name="idade"/><br/><br/>
+            <label for="telefone">Telefone</label><br/>
+            <input type="tel" id="telefone" name="telefone"/><br/><br/>
+            <input type="submit" value="Enviar"/>
+        </form>        
+    </main>
+
+    <footer>
+        <hr/>
+        <div>
+            <p>Copyright &copy; 2025 Mini-site. Todos os direitos reservados.</p>
+            <p>Contato - (31) 99999-9999</p>
+        </div>
+    </footer>    
+</body>
+</html>
